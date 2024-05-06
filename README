@@ -11,35 +11,35 @@ Este é um backend de pagamento construído usando Python e Django. Ele fornece 
 ## Como Configurar
 
 1. **Clonar o Repositório:**
-   ```
+   ```bash
    git clone <URL-do-repositório>
    ```
 
 
 2. **Criar e Ativar Ambiente Virtual:**
-    ```
+    ```bash
     python -m venv venv
     No Windows: .\venv\Scripts\activate
     ```
 
 3. **Instalar as Dependências:**
-    ```
+    ```bash
     pip install -r requirements.txt
     ```
 
 4. **Executar Migrações:**
-    ```
+    ```bash
     python manage.py makemigrations
     python manage.py migrate
     ```
 
 5. **Criar um Superusuário:**
-    ```
+    ```bash
     python manage.py createsuperuser
     ```
 
 6. **Executar o Servidor de Desenvolvimento:**
-    ```
+    ```bash
     python manage.py runserver
     ```
 
@@ -70,34 +70,34 @@ This is a payment backend built using Python and Django. It provides an API for 
 ## How to Set Up
 
 1. **Clone the Repository:**
-   ```
+   ```bash
    git clone <repository-URL>
    ```
 
 2. **Create and Activate Virtual Environment:**
-    ```
+    ```bash
     python -m venv venv
     No Windows: .\venv\Scripts\activate
     ```
 
 3. **Install Dependencies:**
-    ```
+    ```bash
     pip install -r requirements.txt
     ```
 
 4. **Run Migrations:**
-    ```
+    ```bash
     python manage.py makemigrations
     python manage.py migrate
     ```
 
 5. **Create a Superuser:**
-    ```
+    ```bash
     python manage.py createsuperuser
     ```
 
 6. **Run the Development Server:**
-    ```
+    ```bash
     python manage.py runserver
     ```
 
